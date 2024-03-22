@@ -10,5 +10,10 @@ for file in files:
     file_name = os.path.join(directory_path, file)
     new_name = f"nature {start_count}.jpg"
     new_file_path = os.path.join(directory_path, new_name)
-    os.rename(file_name, new_file_path)
+
+    try:
+        os.rename(file_name, new_file_path)
+    except:
+        print(f"Failed to rename {file_name} to {new_file_path}")
+
     start_count += 1

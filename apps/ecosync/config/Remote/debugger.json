@@ -1,0 +1,10 @@
+[
+    {
+        "name": "Frida",
+        "link":"https://raw.githubusercontent.com/invincible003/Public_Store/main/apps/ecosync/bin/Debugger/frida_inject"
+    },
+    {
+        "name": "Kitty Injector",
+        "link":"https://raw.githubusercontent.com/invincible003/Public_Store/main/apps/ecosync/bin/Debugger/KittyInjector"
+    }
+]

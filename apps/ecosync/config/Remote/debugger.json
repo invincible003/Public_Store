@@ -1,5 +1,9 @@
 [
     {
+        "name": "Injector",
+        "link":"https://raw.githubusercontent.com/invincible003/Public_Store/main/apps/ecosync/bin/Debugger/injector"
+    },
+    {
         "name": "Frida",
         "link":"https://raw.githubusercontent.com/invincible003/Public_Store/main/apps/ecosync/bin/Debugger/frida_inject"
     },

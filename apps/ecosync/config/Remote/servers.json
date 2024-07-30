@@ -3,7 +3,7 @@
         "name": "Cheat Engine ",
         "link": "https://raw.githubusercontent.com/invincible003/Public_Store/main/apps/ecosync/bin/Server/ceserver_arm64",
         "startCommand":" -p 1080",
-        "commandOverload_needed":false,
+        "commandOverloadNeeded":false,
         "version":"1.0.0",
         "message": "Run This Command in your PC => adb forward tcp:1080 tcp:1080 && adb forward tcp:1080 tcp:1080"
     },
@@ -11,7 +11,7 @@
         "name": "IDA",
         "link": "https://raw.githubusercontent.com/invincible003/Public_Store/main/apps/ecosync/bin/Server/ida_server",
         "startCommand":" -p 1081",
-        "commandOverload_needed":false,
+        "commandOverloadNeeded":false,
         "version":"1.0.0",
         "message": "Run This Command in your PC => adb forward tcp:1080 tcp:1080 && adb forward tcp:1081 tcp:1081"
     },
@@ -19,7 +19,7 @@
         "name": "Frida",
         "link": "https://raw.githubusercontent.com/invincible003/Public_Store/main/apps/ecosync/bin/Server/frida_server",
         "startCommand":"",
-        "commandOverload_needed":false,
+        "commandOverloadNeeded":false,
         "version":"1.0.0",
         "message": "Connect To PC Via Default Port 27042"
     },
@@ -27,7 +27,7 @@
         "name": "GDB And LLDB",
         "link": "https://raw.githubusercontent.com/invincible003/Public_Store/main/apps/ecosync/bin/Server/gdbserver ",
         "startCommand":" :1090 --attach ",
-        "commandOverload_needed":true,
+        "commandOverloadNeeded":true,
         "version":"1.0.0",
         "message": "Provide Process ID Of Target App. Connect on Port : 1090 . Forward port in pc"
     }

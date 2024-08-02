@@ -5,7 +5,7 @@
         "startCommand":" -p 1080",
         "commandOverloadNeeded":false,
         "version":"1.0.0",
-        "message": "Run This Command in your PC => adb forward tcp:1080 tcp:1080 && adb forward tcp:1080 tcp:1080"
+        "message": "Run This Command in your PC => adb forward tcp:1080 tcp:1080"
     },
     {
         "name": "IDA",
@@ -13,7 +13,7 @@
         "startCommand":" -p 1081",
         "commandOverloadNeeded":false,
         "version":"1.0.0",
-        "message": "Run This Command in your PC => adb forward tcp:1080 tcp:1080 && adb forward tcp:1081 tcp:1081"
+        "message": "Run This Command in your PC => adb forward tcp:1081 tcp:1081"
     },
     {
         "name": "Frida",

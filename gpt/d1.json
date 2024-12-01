@@ -1,0 +1,992 @@
+{
+    "offset": "001381b4",
+    "pseudocode": "\r\nvoid FUN_001381b4(long param_1)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 0;\r\n  if (*(char *)(param_1 + 0x149) != '\\0') {\r\n    uVar1 = 2;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x001381f8. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x55ac20))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0013825c",
+    "pseudocode": "\r\nundefined FUN_0013825c(long param_1)\r\n\r\n{\r\n  return *(undefined *)(param_1 + 0x144);\r\n}\r\n\r\n"
+},
+{
+    "offset": "00138d98",
+    "pseudocode": "\r\nvoid FUN_00138d98(undefined8 param_1,long param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 3;\r\n  if (param_2 != 0) {\r\n    uVar1 = 5;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00138df0. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x55ae10))(0);\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00139034",
+    "pseudocode": "\r\nvoid FUN_00139034(undefined8 param_1,long param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 3;\r\n  if (param_2 != 0) {\r\n    uVar1 = 1;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00139080. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x55ae70))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00139768",
+    "pseudocode": "\r\nvoid FUN_00139768(undefined8 param_1,long *param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 3;\r\n  if (*param_2 != param_2[1]) {\r\n    uVar1 = 2;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x001397cc. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x55afb0))(0xf24152a6,0);\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "001398a0",
+    "pseudocode": "\r\nvoid FUN_001398a0(undefined8 param_1,long param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 6;\r\n  if (param_2 != 0) {\r\n    uVar1 = 7;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x001398f4. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x55afd0))(0xffffffff);\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00139adc",
+    "pseudocode": "\r\nvoid FUN_00139adc(undefined8 param_1,long param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 0x1b;\r\n  if (param_2 != 0) {\r\n    uVar1 = 0x11;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00139b34. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x55b020))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0013a098",
+    "pseudocode": "\r\nvoid FUN_0013a098(undefined8 param_1,long param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 0xc;\r\n  if (param_2 != 0) {\r\n    uVar1 = 0x27;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0013a0f0. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x55b100))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0013a3a8",
+    "pseudocode": "\r\nvoid FUN_0013a3a8(undefined8 param_1,long param_2,long param_3,uint param_4)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 9;\r\n  if ((param_4 < 0x100001 && param_3 != 0) && param_2 != 0) {\r\n    uVar1 = 5;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0013a40c. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x55b250))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0013a814",
+    "pseudocode": "\r\nvoid FUN_0013a814(undefined8 param_1,long param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 2;\r\n  if (param_2 != 0) {\r\n    uVar1 = 1;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0013a864. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x55b2c0))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0013aa48",
+    "pseudocode": "\r\nundefined FUN_0013aa48(long param_1)\r\n\r\n{\r\n  return *(undefined *)(param_1 + 0x141);\r\n}\r\n\r\n"
+},
+{
+    "offset": "0013b074",
+    "pseudocode": "\r\nvoid FUN_0013b074(void)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 0;\r\n  if (DAT_005b1a40 != 0) {\r\n    uVar1 = 3;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0013b0b4. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (*(code *)(&PTR_LAB_0055b3b0)[uVar1])();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0013b1a0",
+    "pseudocode": "\r\nvoid FUN_0013b1a0(undefined8 param_1,long param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 7;\r\n  if (param_2 != 0) {\r\n    uVar1 = 0x13;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0013b1f8. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x55b400))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0013b524",
+    "pseudocode": "\r\nvoid FUN_0013b524(undefined8 param_1,long param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 6;\r\n  if (param_2 != 0) {\r\n    uVar1 = 1;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0013b570. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x55b4a0))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0013baf4",
+    "pseudocode": "\r\nundefined8 FUN_0013baf4(long *param_1,long *param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  long lVar2;\r\n  long lVar3;\r\n  \r\n  uVar1 = *(uint *)(*param_1 + 0x18);\r\n  lVar2 = *param_1;\r\n  do {\r\n    if (*(uint *)(param_2 + 3) == uVar1) {\r\n      return 0xffffffff;\r\n    }\r\n    if (*(uint *)(param_2 + 3) < uVar1) {\r\n      lVar3 = *(long *)(lVar2 + 8);\r\n      if (lVar3 == 0) {\r\n        *(long **)(lVar2 + 8) = param_2;\r\nLAB_0013bb50:\r\n        *param_2 = lVar2;\r\n        return 0;\r\n      }\r\n    }\r\n    else {\r\n      lVar3 = *(long *)(lVar2 + 0x10);\r\n      if (lVar3 == 0) {\r\n        *(long **)(lVar2 + 0x10) = param_2;\r\n        goto LAB_0013bb50;\r\n      }\r\n    }\r\n    uVar1 = *(uint *)(lVar3 + 0x18);\r\n    lVar2 = lVar3;\r\n  } while( true );\r\n}\r\n\r\n"
+},
+{
+    "offset": "0013bca8",
+    "pseudocode": "\r\nvoid FUN_0013bca8(long *param_1,long *param_2)\r\n\r\n{\r\n  long *plVar1;\r\n  long lVar2;\r\n  long *plVar3;\r\n  \r\n  lVar2 = *param_2;\r\n  plVar1 = (long *)param_2[2];\r\n  if (lVar2 != 0) {\r\n    param_1 = (long *)(lVar2 + 8);\r\n    if (*(long **)(lVar2 + 8) != param_2) {\r\n      param_1 = (long *)(lVar2 + 0x10);\r\n    }\r\n  }\r\n  *param_1 = (long)plVar1;\r\n  plVar3 = (long *)plVar1[1];\r\n  *plVar1 = lVar2;\r\n  param_2[2] = (long)plVar3;\r\n  if (plVar3 != (long *)0x0) {\r\n    *plVar3 = (long)param_2;\r\n  }\r\n  plVar1[1] = (long)param_2;\r\n  *param_2 = (long)plVar1;\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0013bcec",
+    "pseudocode": "\r\nvoid FUN_0013bcec(undefined8 *param_1,long *param_2)\r\n\r\n{\r\n  long lVar1;\r\n  long *plVar2;\r\n  undefined8 *puVar3;\r\n  \r\n  lVar1 = *param_2;\r\n  plVar2 = (long *)param_2[1];\r\n  if (lVar1 != 0) {\r\n    param_1 = (undefined8 *)(lVar1 + 8);\r\n    if (*(long **)(lVar1 + 8) != param_2) {\r\n      param_1 = (undefined8 *)(lVar1 + 0x10);\r\n    }\r\n  }\r\n  *param_1 = plVar2;\r\n  puVar3 = (undefined8 *)plVar2[2];\r\n  *plVar2 = lVar1;\r\n  param_2[1] = (long)puVar3;\r\n  if (puVar3 != (undefined8 *)0x0) {\r\n    *puVar3 = param_2;\r\n  }\r\n  plVar2[2] = (long)param_2;\r\n  *param_2 = (long)plVar2;\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0013bf78",
+    "pseudocode": "\r\nvoid FUN_0013bf78(undefined8 param_1,long param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 0;\r\n  if (param_2 != 0) {\r\n    uVar1 = 4;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0013bfb4. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x55b4e0))(0xffffffff);\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0013c040",
+    "pseudocode": "\r\nvoid FUN_0013c040(undefined8 param_1,uint param_2,int param_3)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 0;\r\n  if (-1 < param_3 && ((param_2 ^ 0xffffffff) & 1) == 0) {\r\n    uVar1 = 0xd;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0013c098. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)(&DAT_0055b510 + (ulong)uVar1 * 8))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0013c5ac",
+    "pseudocode": "\r\nvoid FUN_0013c5ac(int *param_1)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 4;\r\n  if (*param_1 < 0) {\r\n    uVar1 = 7;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0013c5fc. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (*(code *)(&PTR_LAB_0055b680)[uVar1])();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0013cd90",
+    "pseudocode": "\r\nvoid FUN_0013cd90(long param_1)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 7;\r\n  if (*(int *)(param_1 + 4) < 0) {\r\n    uVar1 = 4;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0013cdf8. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)(&DAT_0055b730 + (ulong)uVar1 * 8))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0013d76c",
+    "pseudocode": "\r\nvoid FUN_0013d76c(long *param_1,long *param_2)\r\n\r\n{\r\n  long *plVar1;\r\n  long lVar2;\r\n  long *plVar3;\r\n  \r\n  lVar2 = *param_2;\r\n  plVar1 = (long *)param_2[2];\r\n  if (lVar2 != 0) {\r\n    param_1 = (long *)(lVar2 + 8);\r\n    if (*(long **)(lVar2 + 8) != param_2) {\r\n      param_1 = (long *)(lVar2 + 0x10);\r\n    }\r\n  }\r\n  *param_1 = (long)plVar1;\r\n  plVar3 = (long *)plVar1[1];\r\n  *plVar1 = lVar2;\r\n  param_2[2] = (long)plVar3;\r\n  if (plVar3 != (long *)0x0) {\r\n    *plVar3 = (long)param_2;\r\n  }\r\n  plVar1[1] = (long)param_2;\r\n  *param_2 = (long)plVar1;\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0013d7b0",
+    "pseudocode": "\r\nvoid FUN_0013d7b0(undefined8 *param_1,long *param_2)\r\n\r\n{\r\n  long lVar1;\r\n  long *plVar2;\r\n  undefined8 *puVar3;\r\n  \r\n  lVar1 = *param_2;\r\n  plVar2 = (long *)param_2[1];\r\n  if (lVar1 != 0) {\r\n    param_1 = (undefined8 *)(lVar1 + 8);\r\n    if (*(long **)(lVar1 + 8) != param_2) {\r\n      param_1 = (undefined8 *)(lVar1 + 0x10);\r\n    }\r\n  }\r\n  *param_1 = plVar2;\r\n  puVar3 = (undefined8 *)plVar2[2];\r\n  *plVar2 = lVar1;\r\n  param_2[1] = (long)puVar3;\r\n  if (puVar3 != (undefined8 *)0x0) {\r\n    *puVar3 = param_2;\r\n  }\r\n  plVar2[2] = (long)param_2;\r\n  *param_2 = (long)plVar2;\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0013d880",
+    "pseudocode": "\r\nvoid FUN_0013d880(void)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 3;\r\n  if (DAT_005b1a50 != 0) {\r\n    uVar1 = 1;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0013d8d0. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x55b7d0))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0013d94c",
+    "pseudocode": "\r\nvoid FUN_0013d94c(void)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 0;\r\n  if (DAT_005b1a50 != 0) {\r\n    uVar1 = 2;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0013d98c. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x55b7f0))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0013d9b8",
+    "pseudocode": "\r\nvoid FUN_0013d9b8(long param_1)\r\n\r\n{\r\n  *(undefined4 *)(param_1 + 0x40) = 0;\r\n  *(undefined *)(param_1 + 0x44) = 0;\r\n                    /* WARNING: Could not recover jumptable at 0x0013d9dc. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (*DAT_0055b818)();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0013d9f4",
+    "pseudocode": "\r\nvoid FUN_0013d9f4(void)\r\n\r\n{\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0013d9f8",
+    "pseudocode": "\r\nvoid FUN_0013d9f8(void)\r\n\r\n{\r\n  uint uVar1;\r\n  int in_w4;\r\n  \r\n  uVar1 = 2;\r\n  if (-1 < in_w4) {\r\n    uVar1 = 3;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0013da50. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)(&DAT_0055b830 + (ulong)uVar1 * 8))(0xffffffff);\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0013dcac",
+    "pseudocode": "\r\nvoid FUN_0013dcac(undefined8 param_1,undefined8 param_2,int param_3)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 0x20;\r\n  if (-1 < param_3) {\r\n    uVar1 = 0xc;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0013dcf8. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)(&DAT_0055b890 + (ulong)uVar1 * 8))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0013e1f0",
+    "pseudocode": "\r\nvoid FUN_0013e1f0(void)\r\n\r\n{\r\n  uint uVar1;\r\n  int in_w3;\r\n  \r\n  uVar1 = 0xc;\r\n  if (-1 < in_w3) {\r\n    uVar1 = 3;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0013e248. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)(&DAT_0055b9e0 + (ulong)uVar1 * 8))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0013f67c",
+    "pseudocode": "\r\nvoid FUN_0013f67c(undefined8 param_1,long param_2,long param_3)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 8;\r\n  if (param_3 != 0 && param_2 != 0) {\r\n    uVar1 = 1;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0013f6d4. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x55be30))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0013f9d4",
+    "pseudocode": "\r\nvoid FUN_0013f9d4(undefined8 param_1,undefined8 param_2,int param_3)\r\n\r\n{\r\n                    /* WARNING: Could not recover jumptable at 0x0013fa18. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (*DAT_0055bef8)(param_1,param_2,\r\n                  -(ulong)(param_3 + 1U >> 0x1f) & 0xfffffff800000000 | (ulong)(param_3 + 1U) << 3);\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0013fb48",
+    "pseudocode": "\r\nuint FUN_0013fb48(undefined8 param_1,long param_2,long param_3)\r\n\r\n{\r\n  if (*(long *)(param_3 + 0x78) != 0) {\r\n    return *(uint *)(*(long *)(param_3 + 0x78) + 4);\r\n  }\r\n  return (uint)*(byte *)(param_2 + 4);\r\n}\r\n\r\n"
+},
+{
+    "offset": "0013fb60",
+    "pseudocode": "\r\nvoid FUN_0013fb60(undefined8 param_1,long param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 8;\r\n  if (param_2 != 0) {\r\n    uVar1 = 0xf;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0013fbb4. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x55bf30))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0013fe24",
+    "pseudocode": "\r\nvoid FUN_0013fe24(undefined8 *param_1)\r\n\r\n{\r\n  *(undefined4 *)(param_1 + 1) = 0;\r\n  *param_1 = 0;\r\n                    /* WARNING: Could not recover jumptable at 0x0013fe50. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (*DAT_0055c028)((long)param_1 + 0xc);\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "001404ac",
+    "pseudocode": "\r\nvoid FUN_001404ac(byte *param_1,long param_2,byte param_3)\r\n\r\n{\r\n  if (param_2 != 0) {\r\n    do {\r\n      param_2 = param_2 + -1;\r\n      *param_1 = *param_1 ^ param_3;\r\n      param_3 = param_3 + 1;\r\n      param_1 = param_1 + 1;\r\n    } while (param_2 != 0);\r\n  }\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "001404cc",
+    "pseudocode": "\r\nvoid FUN_001404cc(void)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 2;\r\n  if (DAT_005b1a60 != 0) {\r\n    uVar1 = 4;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0014051c. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x55c280))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "001408b8",
+    "pseudocode": "\r\nvoid FUN_001408b8(undefined8 param_1,long param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 4;\r\n  if (param_2 != 0) {\r\n    uVar1 = 2;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0014090c. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x55c2d0))(0xffffffff);\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00140de4",
+    "pseudocode": "\r\nvoid FUN_00140de4(long param_1,undefined8 param_2,long param_3)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 2;\r\n  if (param_3 != 0) {\r\n    uVar1 = 0;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00140e1c. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (*(code *)(&DAT_0055c360)[uVar1])(param_1 + 8);\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00141018",
+    "pseudocode": "\r\nvoid FUN_00141018(undefined8 param_1,undefined8 param_2,long param_3)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 4;\r\n  if (param_3 != 0) {\r\n    uVar1 = 6;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00141068. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x55c3a0))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00141208",
+    "pseudocode": "\r\nvoid FUN_00141208(undefined8 param_1,int param_2,long param_3)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 5;\r\n  if (param_3 != 0 && -1 < param_2) {\r\n    uVar1 = 4;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00141264. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)(&DAT_0055c450 + (ulong)uVar1 * 8))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "001414bc",
+    "pseudocode": "\r\nvoid FUN_001414bc(long param_1,long param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 0xc;\r\n  if (param_2 != 0 && param_1 != 0) {\r\n    uVar1 = 0xe;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00141510. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x55c4b0))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "001419fc",
+    "pseudocode": "\r\nvoid FUN_001419fc(long param_1)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 3;\r\n  if (param_1 != 0) {\r\n    uVar1 = 4;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00141a4c. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x55c640))(0);\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00141d20",
+    "pseudocode": "\r\nvoid FUN_00141d20(long param_1)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 7;\r\n  if (param_1 != 0) {\r\n    uVar1 = 8;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00141d68. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x55c6b0))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00141dd8",
+    "pseudocode": "\r\nvoid FUN_00141dd8(undefined8 param_1,long param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 0;\r\n  if (param_2 != 0) {\r\n    uVar1 = 3;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00141e1c. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x55c700))(0);\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0014205c",
+    "pseudocode": "\r\nvoid FUN_0014205c(void)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 2;\r\n  if (DAT_005b1a70 != 0) {\r\n    uVar1 = 4;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x001420ac. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x55c780))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00142138",
+    "pseudocode": "\r\nvoid FUN_00142138(void)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 4;\r\n  if (DAT_005b1a70 != 0) {\r\n    uVar1 = 2;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00142188. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x55c7b0))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00142538",
+    "pseudocode": "\r\nvoid FUN_00142538(undefined8 param_1,long param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 0;\r\n  if (param_2 != 0) {\r\n    uVar1 = 3;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00142580. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x55c830))(0xffffffff);\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00142a74",
+    "pseudocode": "\r\nvoid FUN_00142a74(undefined8 param_1,undefined8 param_2,long param_3)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 5;\r\n  if (param_3 != 0) {\r\n    uVar1 = 0;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00142acc. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (*(code *)(&DAT_0055c880)[uVar1])(0xffffffff);\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00142c90",
+    "pseudocode": "\r\nvoid FUN_00142c90(long *param_1,undefined8 param_2)\r\n\r\n{\r\n                    /* WARNING: Could not recover jumptable at 0x00142c9c. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)(*param_1 + 0x30))(param_1,param_2,0);\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00142ca8",
+    "pseudocode": "\r\nvoid FUN_00142ca8(undefined8 param_1,long param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 2;\r\n  if (param_2 != 0) {\r\n    uVar1 = 9;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00142d08. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (*(code *)(&PTR_LAB_0055c8b0)[uVar1])(0xffffffff);\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00143084",
+    "pseudocode": "\r\nvoid FUN_00143084(void)\r\n\r\n{\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "001431d8",
+    "pseudocode": "\r\nvoid FUN_001431d8(undefined4 *param_1,undefined4 param_2)\r\n\r\n{\r\n  *param_1 = param_2;\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "001431e4",
+    "pseudocode": "\r\nvoid FUN_001431e4(byte param_1)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 3;\r\n  if ((param_1 & DAT_005b1a88 == '\\0') == 0) {\r\n    uVar1 = 1;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0014325c. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)(&DAT_0055c960 + (ulong)uVar1 * 8))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "001466e8",
+    "pseudocode": "\r\nvoid FUN_001466e8(undefined8 param_1,long param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 7;\r\n  if (param_2 != 0) {\r\n    uVar1 = 0;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00146730. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (*(code *)(&DAT_0055d570)[uVar1])();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "001477b4",
+    "pseudocode": "\r\nvoid FUN_001477b4(void)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 0x10;\r\n  if (DAT_005b1afc == '\\0') {\r\n    uVar1 = 0;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00147800. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)(&DAT_0055da40 + (ulong)uVar1 * 8))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00148768",
+    "pseudocode": "\r\nvoid FUN_00148768(void)\r\n\r\n{\r\n  uint uVar1;\r\n  uint in_w4;\r\n  \r\n  uVar1 = 0x12;\r\n  if ((in_w4 & 1) == 0) {\r\n    uVar1 = 0x34;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x001487d0. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)(&DAT_0055dca0 + (ulong)uVar1 * 8))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00148df8",
+    "pseudocode": "\r\nvoid FUN_00148df8(undefined8 param_1,long param_2,long param_3)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 0x52;\r\n  if (param_3 != 0 && param_2 != 0) {\r\n    uVar1 = 0xd;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00148e5c. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x55de60))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0014aae0",
+    "pseudocode": "\r\nvoid FUN_0014aae0(long param_1)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 0x13;\r\n  if (param_1 != 0) {\r\n    uVar1 = 9;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0014ab30. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x55e7c0))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0014befc",
+    "pseudocode": "\r\nundefined8 FUN_0014befc(long *param_1,long *param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  long lVar2;\r\n  long lVar3;\r\n  \r\n  uVar1 = *(uint *)(*param_1 + 0x18);\r\n  lVar2 = *param_1;\r\n  do {\r\n    if (*(uint *)(param_2 + 3) == uVar1) {\r\n      return 0xffffffff;\r\n    }\r\n    if (*(uint *)(param_2 + 3) < uVar1) {\r\n      lVar3 = *(long *)(lVar2 + 8);\r\n      if (lVar3 == 0) {\r\n        *(long **)(lVar2 + 8) = param_2;\r\nLAB_0014bf58:\r\n        *param_2 = lVar2;\r\n        return 0;\r\n      }\r\n    }\r\n    else {\r\n      lVar3 = *(long *)(lVar2 + 0x10);\r\n      if (lVar3 == 0) {\r\n        *(long **)(lVar2 + 0x10) = param_2;\r\n        goto LAB_0014bf58;\r\n      }\r\n    }\r\n    uVar1 = *(uint *)(lVar3 + 0x18);\r\n    lVar2 = lVar3;\r\n  } while( true );\r\n}\r\n\r\n"
+},
+{
+    "offset": "0014c144",
+    "pseudocode": "\r\nvoid FUN_0014c144(long *param_1,long *param_2)\r\n\r\n{\r\n  long *plVar1;\r\n  long lVar2;\r\n  long *plVar3;\r\n  \r\n  lVar2 = *param_2;\r\n  plVar1 = (long *)param_2[2];\r\n  if (lVar2 != 0) {\r\n    param_1 = (long *)(lVar2 + 8);\r\n    if (*(long **)(lVar2 + 8) != param_2) {\r\n      param_1 = (long *)(lVar2 + 0x10);\r\n    }\r\n  }\r\n  *param_1 = (long)plVar1;\r\n  plVar3 = (long *)plVar1[1];\r\n  *plVar1 = lVar2;\r\n  param_2[2] = (long)plVar3;\r\n  if (plVar3 != (long *)0x0) {\r\n    *plVar3 = (long)param_2;\r\n  }\r\n  plVar1[1] = (long)param_2;\r\n  *param_2 = (long)plVar1;\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0014c188",
+    "pseudocode": "\r\nvoid FUN_0014c188(undefined8 *param_1,long *param_2)\r\n\r\n{\r\n  long lVar1;\r\n  long *plVar2;\r\n  undefined8 *puVar3;\r\n  \r\n  lVar1 = *param_2;\r\n  plVar2 = (long *)param_2[1];\r\n  if (lVar1 != 0) {\r\n    param_1 = (undefined8 *)(lVar1 + 8);\r\n    if (*(long **)(lVar1 + 8) != param_2) {\r\n      param_1 = (undefined8 *)(lVar1 + 0x10);\r\n    }\r\n  }\r\n  *param_1 = plVar2;\r\n  puVar3 = (undefined8 *)plVar2[2];\r\n  *plVar2 = lVar1;\r\n  param_2[1] = (long)puVar3;\r\n  if (puVar3 != (undefined8 *)0x0) {\r\n    *puVar3 = param_2;\r\n  }\r\n  plVar2[2] = (long)param_2;\r\n  *param_2 = (long)plVar2;\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0014c234",
+    "pseudocode": "\r\nvoid FUN_0014c234(void)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 3;\r\n  if (DAT_005b1b18 != 0) {\r\n    uVar1 = 1;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0014c284. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x55eb10))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0014c330",
+    "pseudocode": "\r\nvoid FUN_0014c330(undefined2 *param_1)\r\n\r\n{\r\n  *param_1 = 0x101;\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0014c628",
+    "pseudocode": "\r\nvoid FUN_0014c628(undefined8 param_1,long param_2,long param_3)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 0x12;\r\n  if (*(long *)(param_2 + 0x10) != 0 && param_3 != 0) {\r\n    uVar1 = 0x16;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0014c68c. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x55eb30))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0014d4e4",
+    "pseudocode": "\r\nvoid FUN_0014d4e4(undefined8 param_1,long param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 0x10;\r\n  if (param_2 != 0) {\r\n    uVar1 = 0;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0014d528. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (*(code *)(&DAT_0055ee20)[uVar1])();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0014d67c",
+    "pseudocode": "\r\nvoid FUN_0014d67c(undefined8 param_1,undefined8 param_2,long param_3)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 0xd;\r\n  if (param_3 != 0) {\r\n    uVar1 = 0x2b;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0014d6d8. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x55eee0))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0014d9e4",
+    "pseudocode": "\r\nvoid FUN_0014d9e4(undefined8 param_1,long param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 0x15;\r\n  if (param_2 != 0) {\r\n    uVar1 = 0x22;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0014da30. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x55f050))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0014dff8",
+    "pseudocode": "\r\nvoid FUN_0014dff8(void)\r\n\r\n{\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0014dffc",
+    "pseudocode": "\r\nvoid FUN_0014dffc(void)\r\n\r\n{\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0014e0c0",
+    "pseudocode": "\r\nvoid FUN_0014e0c0(long param_1)\r\n\r\n{\r\n  *(undefined *)(param_1 + 0x6f) = 1;\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0014e0cc",
+    "pseudocode": "\r\nvoid FUN_0014e0cc(long param_1)\r\n\r\n{\r\n  *(undefined *)(param_1 + 0x67) = 1;\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0014e0d8",
+    "pseudocode": "\r\nvoid FUN_0014e0d8(long param_1)\r\n\r\n{\r\n  *(undefined *)(param_1 + 0x6f) = 0;\r\n  *(undefined2 *)(param_1 + 0x6d) = 0x101;\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0014e0e8",
+    "pseudocode": "\r\nvoid FUN_0014e0e8(long param_1)\r\n\r\n{\r\n  *(undefined *)(param_1 + 0x67) = 0;\r\n  *(undefined2 *)(param_1 + 0x65) = 0x101;\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0014f700",
+    "pseudocode": "\r\nvoid FUN_0014f700(void)\r\n\r\n{\r\n  uint uVar1;\r\n  long in_x3;\r\n  \r\n  uVar1 = 1;\r\n  if (in_x3 != 0) {\r\n    uVar1 = 2;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0014f748. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x55f400))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0014f76c",
+    "pseudocode": "\r\nvoid FUN_0014f76c(undefined8 param_1,long param_2,ulong param_3)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 0xf;\r\n  if (0x80 < param_3 && param_2 != 0) {\r\n    uVar1 = 6;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0014f7c8. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x55f420))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0014ff64",
+    "pseudocode": "\r\nvoid FUN_0014ff64(long param_1)\r\n\r\n{\r\n  char cVar1;\r\n  \r\n  cVar1 = '\\x01';\r\n  if ((*(byte *)(param_1 + 0x22) + 1 & 0x100) == 0) {\r\n    cVar1 = *(byte *)(param_1 + 0x22) + 1;\r\n  }\r\n  *(char *)(param_1 + 0x22) = cVar1;\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0014ff9c",
+    "pseudocode": "\r\nvoid FUN_0014ff9c(long param_1)\r\n\r\n{\r\n  byte bVar1;\r\n  byte bVar2;\r\n  \r\n  bVar1 = *(char *)(param_1 + 0x24) + 1;\r\n  bVar2 = bVar1 & 0xf;\r\n  if ((bVar1 & 0xf) == 0) {\r\n    bVar2 = 1;\r\n  }\r\n  *(byte *)(param_1 + 0x24) = bVar2;\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0014ffb8",
+    "pseudocode": "\r\nvoid FUN_0014ffb8(long param_1)\r\n\r\n{\r\n  byte bVar1;\r\n  byte bVar2;\r\n  \r\n  bVar1 = *(char *)(param_1 + 0x25) + 1;\r\n  bVar2 = bVar1 & 0xf;\r\n  if ((bVar1 & 0xf) == 0) {\r\n    bVar2 = 1;\r\n  }\r\n  *(byte *)(param_1 + 0x25) = bVar2;\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0014ffd4",
+    "pseudocode": "\r\nvoid FUN_0014ffd4(long param_1)\r\n\r\n{\r\n  byte bVar1;\r\n  byte bVar2;\r\n  \r\n  bVar1 = *(char *)(param_1 + 0x26) + 1;\r\n  bVar2 = bVar1 & 0xf;\r\n  if ((bVar1 & 0xf) == 0) {\r\n    bVar2 = 1;\r\n  }\r\n  *(byte *)(param_1 + 0x26) = bVar2;\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0014fff0",
+    "pseudocode": "\r\nvoid FUN_0014fff0(long param_1)\r\n\r\n{\r\n  byte bVar1;\r\n  byte bVar2;\r\n  \r\n  bVar1 = *(char *)(param_1 + 0x27) + 1;\r\n  bVar2 = bVar1 & 0xf;\r\n  if ((bVar1 & 0xf) == 0) {\r\n    bVar2 = 1;\r\n  }\r\n  *(byte *)(param_1 + 0x27) = bVar2;\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00150a04",
+    "pseudocode": "\r\nundefined8 FUN_00150a04(void)\r\n\r\n{\r\n  return 1;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00150bf4",
+    "pseudocode": "\r\nvoid FUN_00150bf4(void)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 1;\r\n  if (DAT_005b1b68 != 0) {\r\n    uVar1 = 2;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00150c44. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x55f640))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0015112c",
+    "pseudocode": "\r\nvoid FUN_0015112c(long param_1)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 7;\r\n  if (0x1f < *(int *)(param_1 + 0x30)) {\r\n    uVar1 = 0;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00151180. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)(&DAT_0055f690 + (ulong)uVar1 * 8))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0015181c",
+    "pseudocode": "\r\nvoid FUN_0015181c(undefined8 param_1,long param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 0;\r\n  if (param_2 != 0) {\r\n    uVar1 = 3;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0015185c. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x55f6d0))(0);\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00151e68",
+    "pseudocode": "\r\nvoid FUN_00151e68(undefined8 param_1,long param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 0x16;\r\n  if (param_2 != 0) {\r\n    uVar1 = 0x14;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00151ec0. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x55f730))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00152474",
+    "pseudocode": "\r\nvoid FUN_00152474(long param_1)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 0x12;\r\n  if (param_1 != 0) {\r\n    uVar1 = 0x10;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x001524cc. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x55f860))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00152714",
+    "pseudocode": "\r\nvoid FUN_00152714(long param_1)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 0x17;\r\n  if (param_1 != 0) {\r\n    uVar1 = 0x1d;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0015276c. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x55f990))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00152a48",
+    "pseudocode": "\r\nvoid FUN_00152a48(undefined8 param_1,long param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 9;\r\n  if (param_2 != 0) {\r\n    uVar1 = 5;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00152a98. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x55fb00))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00152d58",
+    "pseudocode": "\r\nvoid FUN_00152d58(long param_1)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 0x11;\r\n  if (param_1 != 0) {\r\n    uVar1 = 0x1f;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00152db4. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x55fb50))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00153490",
+    "pseudocode": "\r\nvoid FUN_00153490(void)\r\n\r\n{\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "001534a0",
+    "pseudocode": "\r\nvoid FUN_001534a0(void)\r\n\r\n{\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "001534b4",
+    "pseudocode": "\r\nvoid FUN_001534b4(void)\r\n\r\n{\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "001535fc",
+    "pseudocode": "\r\nundefined8 FUN_001535fc(void)\r\n\r\n{\r\n  return 0;\r\n}\r\n\r\n"
+},
+{
+    "offset": "001536d8",
+    "pseudocode": "\r\nvoid FUN_001536d8(void)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 1;\r\n  if (DAT_005b1b78 != 0) {\r\n    uVar1 = 2;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00153728. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x55fe60))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0015376c",
+    "pseudocode": "\r\nvoid FUN_0015376c(undefined8 *param_1)\r\n\r\n{\r\n  param_1[2] = 0;\r\n  param_1[3] = 0;\r\n  *(undefined8 *)((long)param_1 + 0x1d) = 0;\r\n  param_1[1] = &UNK_00548fa8;\r\n  *param_1 = &PTR_LAB_00548f68;\r\n  *(undefined4 *)(param_1 + 5) = 6;\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00153798",
+    "pseudocode": "\r\nvoid FUN_00153798(undefined8 *param_1)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 4;\r\n  param_1[1] = &UNK_00548fa8;\r\n  *param_1 = &PTR_LAB_00548f68;\r\n  if (param_1[2] != 0) {\r\n    uVar1 = 0;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x001537f8. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (*(code *)(&DAT_0055fe80)[uVar1])();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "001538a8",
+    "pseudocode": "\r\nvoid FUN_001538a8(undefined8 param_1,long param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 0xe;\r\n  if (param_2 != 0) {\r\n    uVar1 = 0x14;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00153900. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x55feb0))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00153d1c",
+    "pseudocode": "\r\nvoid FUN_00153d1c(long param_1)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 2;\r\n  if (*(long *)(param_1 + 0x10) != 0) {\r\n    uVar1 = 10;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00153d70. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x55ffa0))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00154094",
+    "pseudocode": "\r\nvoid FUN_00154094(long param_1)\r\n\r\n{\r\n  uint uVar1;\r\n  int iVar2;\r\n  \r\n  iVar2 = *(int *)(param_1 + 0x28) + -1;\r\n  uVar1 = 5;\r\n  *(int *)(param_1 + 0x28) = iVar2;\r\n  if (iVar2 < 1) {\r\n    uVar1 = 0;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x001540e8. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)(&DAT_00560020 + (ulong)uVar1 * 8))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "001541fc",
+    "pseudocode": "\r\nvoid FUN_001541fc(undefined8 param_1,long param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 0;\r\n  if (param_2 != 0) {\r\n    uVar1 = 2;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0015423c. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x560060))(0);\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0015432c",
+    "pseudocode": "\r\nvoid FUN_0015432c(void)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 1;\r\n  if (DAT_005b1b88 != 0) {\r\n    uVar1 = 2;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0015437c. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x560080))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "001543c4",
+    "pseudocode": "\r\nvoid FUN_001543c4(undefined8 *param_1)\r\n\r\n{\r\n  *(undefined *)((long)param_1 + 0x12) = 0;\r\n  *(undefined *)(param_1 + 3) = 0;\r\n  *param_1 = &DAT_00548fd8;\r\n  param_1[1] = 0;\r\n  *(undefined2 *)(param_1 + 2) = 0x100;\r\n  *(undefined8 *)((long)param_1 + 0x24) = 0;\r\n  *(undefined8 *)((long)param_1 + 0x1c) = 0;\r\n  *(undefined8 *)((long)param_1 + 0x34) = 0;\r\n  *(undefined8 *)((long)param_1 + 0x2c) = 0;\r\n  param_1[8] = 0;\r\n  param_1[7] = 0;\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00155198",
+    "pseudocode": "\r\nvoid FUN_00155198(undefined8 param_1,long param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 6;\r\n  if (param_2 != 0) {\r\n    uVar1 = 8;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x001551f4. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x5604c0))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "001556a8",
+    "pseudocode": "\r\nvoid FUN_001556a8(void)\r\n\r\n{\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00155d40",
+    "pseudocode": "\r\nvoid FUN_00155d40(undefined8 param_1,long *param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 5;\r\n  if (*param_2 != 0) {\r\n    uVar1 = 1;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00155da0. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x560630))(0);\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00156cd8",
+    "pseudocode": "\r\nvoid FUN_00156cd8(undefined *param_1)\r\n\r\n{\r\n  *param_1 = 0;\r\n  *(undefined8 *)(param_1 + 0xc) = 0;\r\n  *(undefined8 *)(param_1 + 4) = 0;\r\n  *(undefined8 *)(param_1 + 0x1c) = 0;\r\n  *(undefined8 *)(param_1 + 0x14) = 0;\r\n  *(undefined8 *)(param_1 + 0x28) = 0;\r\n  *(undefined8 *)(param_1 + 0x20) = 0;\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00157018",
+    "pseudocode": "\r\nvoid FUN_00157018(void)\r\n\r\n{\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00157138",
+    "pseudocode": "\r\nvoid FUN_00157138(void)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 1;\r\n  if (DAT_005b1b98 != 0) {\r\n    uVar1 = 2;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00157188. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x560870))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "001571b4",
+    "pseudocode": "\r\nvoid FUN_001571b4(undefined8 *param_1)\r\n\r\n{\r\n  *param_1 = &DAT_00549008;\r\n  param_1[1] = 0;\r\n  *(undefined4 *)(param_1 + 2) = 0;\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "001571c8",
+    "pseudocode": "\r\nvoid FUN_001571c8(void)\r\n\r\n{\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "001579f0",
+    "pseudocode": "\r\nvoid FUN_001579f0(undefined8 param_1,long param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 1;\r\n  if (*(int *)(param_2 + 6) != 0x10a0049) {\r\n    uVar1 = 2;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00157a38. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x560a80))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00157a54",
+    "pseudocode": "\r\nvoid FUN_00157a54(void)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 1;\r\n  if (DAT_005b1ba8 != 0) {\r\n    uVar1 = 2;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00157aa4. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x560aa0))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00157acc",
+    "pseudocode": "\r\nvoid FUN_00157acc(undefined2 *param_1)\r\n\r\n{\r\n  *param_1 = 0;\r\n  *(undefined8 *)(param_1 + 4) = 0;\r\n  *(undefined8 *)(param_1 + 8) = 0;\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00158410",
+    "pseudocode": "\r\nvoid FUN_00158410(void)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 3;\r\n  if (DAT_005b1bb0 != 0) {\r\n    uVar1 = 1;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00158460. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x560b70))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "001584ec",
+    "pseudocode": "\r\nvoid FUN_001584ec(void)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 0;\r\n  if (DAT_005b1bb0 != 0) {\r\n    uVar1 = 2;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0015852c. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x560b90))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00158568",
+    "pseudocode": "\r\nvoid FUN_00158568(undefined8 *param_1)\r\n\r\n{\r\n  param_1[2] = 0;\r\n  param_1[3] = 0;\r\n  *(undefined2 *)((long)param_1 + 0x24) = 0;\r\n  *param_1 = &DAT_00549038;\r\n  param_1[1] = 0;\r\n  *(undefined *)((long)param_1 + 0x26) = 1;\r\n  *(undefined4 *)(param_1 + 4) = 0;\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00159d30",
+    "pseudocode": "\r\nvoid FUN_00159d30(undefined8 *param_1)\r\n\r\n{\r\n  *param_1 = &DAT_00549068;\r\n  param_1[1] = 0;\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00159d40",
+    "pseudocode": "\r\nvoid FUN_00159d40(void)\r\n\r\n{\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00159f78",
+    "pseudocode": "\r\nvoid FUN_00159f78(undefined8 param_1,long *param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 0x2c;\r\n  if (*param_2 != 0) {\r\n    uVar1 = 0xe;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00159fe8. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x560c30))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0015a6fc",
+    "pseudocode": "\r\nvoid FUN_0015a6fc(undefined8 param_1,long param_2,long param_3)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 7;\r\n  if (param_3 != 0 && param_2 != 0) {\r\n    uVar1 = 4;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0015a750. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x560dc0))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0015acfc",
+    "pseudocode": "\r\nvoid FUN_0015acfc(undefined8 *param_1)\r\n\r\n{\r\n  *param_1 = &DAT_00549098;\r\n  param_1[1] = 0;\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0015ad0c",
+    "pseudocode": "\r\nvoid FUN_0015ad0c(void)\r\n\r\n{\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0015ad14",
+    "pseudocode": "\r\nvoid FUN_0015ad14(void)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 1;\r\n  if (DAT_005b1bd0 != 0) {\r\n    uVar1 = 2;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0015ad64. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x560e10))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0015ad90",
+    "pseudocode": "\r\nvoid FUN_0015ad90(void)\r\n\r\n{\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0015ae60",
+    "pseudocode": "\r\nvoid FUN_0015ae60(undefined8 param_1,long *param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 1;\r\n  if (*param_2 != 0) {\r\n    uVar1 = 9;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0015aeec. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x560e30))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0015b0b8",
+    "pseudocode": "\r\nvoid FUN_0015b0b8(void)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 2;\r\n  if (DAT_005b1bd8 != 0) {\r\n    uVar1 = 4;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0015b108. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x560ea0))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0015b1c8",
+    "pseudocode": "\r\nvoid FUN_0015b1c8(void)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 4;\r\n  if (DAT_005b1bd8 != 0) {\r\n    uVar1 = 2;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0015b218. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x560ed0))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0015b2c4",
+    "pseudocode": "\r\nvoid FUN_0015b2c4(undefined8 *param_1)\r\n\r\n{\r\n  *param_1 = &DAT_005490c8;\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0015b960",
+    "pseudocode": "\r\nvoid FUN_0015b960(void)\r\n\r\n{\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0015bc50",
+    "pseudocode": "\r\nvoid FUN_0015bc50(long param_1)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 6;\r\n  if (*(char *)(param_1 + 0x10) != '\\0') {\r\n    uVar1 = 3;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0015bcb0. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x561010))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0015bf6c",
+    "pseudocode": "\r\nvoid FUN_0015bf6c(undefined8 *param_1)\r\n\r\n{\r\n  *(undefined2 *)(param_1 + 2) = 0;\r\n  *param_1 = &DAT_005490f8;\r\n  param_1[1] = 0;\r\n  *(undefined4 *)((long)param_1 + 0x14) = 0;\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0015bf84",
+    "pseudocode": "\r\nvoid FUN_0015bf84(void)\r\n\r\n{\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0015bf8c",
+    "pseudocode": "\r\nvoid FUN_0015bf8c(long param_1)\r\n\r\n{\r\n  *(undefined *)(param_1 + 0x10) = 0;\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0015c1ec",
+    "pseudocode": "\r\nvoid FUN_0015c1ec(undefined8 param_1,long *param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 2;\r\n  if (*param_2 != 0) {\r\n    uVar1 = 1;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0015c258. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x561060))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0015c62c",
+    "pseudocode": "\r\nvoid FUN_0015c62c(undefined8 param_1,long param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 6;\r\n  if (param_2 != 0) {\r\n    uVar1 = 0xd;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0015c67c. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x561190))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0015cdc0",
+    "pseudocode": "\r\nvoid FUN_0015cdc0(undefined8 *param_1)\r\n\r\n{\r\n  *param_1 = &DAT_00549128;\r\n  param_1[1] = 0;\r\n  *(undefined2 *)(param_1 + 2) = 0;\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0015cdd4",
+    "pseudocode": "\r\nvoid FUN_0015cdd4(void)\r\n\r\n{\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0015da70",
+    "pseudocode": "\r\nvoid FUN_0015da70(long param_1)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 0xd;\r\n  if (*(char *)(param_1 + 0x11) != '\\0') {\r\n    uVar1 = 5;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0015dad0. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x561330))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0015e7a4",
+    "pseudocode": "\r\nvoid FUN_0015e7a4(void)\r\n\r\n{\r\n  uint uVar1;\r\n  long *in_x3;\r\n  \r\n  uVar1 = 0x11;\r\n  if ((int)((ulong)(in_x3[1] - *in_x3) >> 4) != 0) {\r\n    uVar1 = 0xc;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0015e808. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x561540))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0015ea30",
+    "pseudocode": "\r\nvoid FUN_0015ea30(undefined8 param_1,undefined8 param_2,long *param_3)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 0;\r\n  if (*param_3 != param_3[1]) {\r\n    uVar1 = 2;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0015ea90. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x561600))(0);\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0015ee94",
+    "pseudocode": "\r\nvoid FUN_0015ee94(undefined8 *param_1)\r\n\r\n{\r\n  *param_1 = &DAT_00549158;\r\n  param_1[1] = 0;\r\n  param_1[2] = 0x100000000000000;\r\n  param_1[3] = 0;\r\n  *(undefined8 *)((long)param_1 + 0x1f) = 0;\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0015eeb0",
+    "pseudocode": "\r\nvoid FUN_0015eeb0(void)\r\n\r\n{\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0015f2b0",
+    "pseudocode": "\r\nvoid FUN_0015f2b0(undefined8 *param_1)\r\n\r\n{\r\n  *param_1 = &DAT_00549178;\r\n  param_1[1] = 0;\r\n  *(undefined2 *)(param_1 + 2) = 0;\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0015f2c4",
+    "pseudocode": "\r\nvoid FUN_0015f2c4(long param_1)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 1;\r\n  if (*(char *)(param_1 + 0x10) != '\\0') {\r\n    uVar1 = 2;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0015f310. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x561660))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0015fa70",
+    "pseudocode": "\r\nvoid FUN_0015fa70(long param_1)\r\n\r\n{\r\n  *(undefined *)(param_1 + 0x10) = 0;\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0015fb44",
+    "pseudocode": "\r\nvoid FUN_0015fb44(void)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 2;\r\n  if (DAT_005b1c00 != 0) {\r\n    uVar1 = 4;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0015fb94. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x5617f0))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0015fc20",
+    "pseudocode": "\r\nvoid FUN_0015fc20(void)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 4;\r\n  if (DAT_005b1c00 != 0) {\r\n    uVar1 = 2;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0015fc70. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x561820))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0015fd90",
+    "pseudocode": "\r\nvoid FUN_0015fd90(long param_1)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 1;\r\n  if (*(char *)(param_1 + 0x10) != '\\0') {\r\n    uVar1 = 8;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0015fdec. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x561850))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0015ffd8",
+    "pseudocode": "\r\nvoid FUN_0015ffd8(long param_1)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 3;\r\n  if (0 < *(int *)(param_1 + 0x40)) {\r\n    uVar1 = 8;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0016002c. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)(&DAT_005618b0 + (ulong)uVar1 * 8))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "001602cc",
+    "pseudocode": "\r\nvoid FUN_001602cc(undefined8 param_1,long param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 0x1e;\r\n  if (param_2 != 0) {\r\n    uVar1 = 1;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00160328. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x561900))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "001608c4",
+    "pseudocode": "\r\nvoid FUN_001608c4(long param_1)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 1;\r\n  if (*(char *)(param_1 + 0x10) != '\\0') {\r\n    uVar1 = 3;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00160918. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x561a40))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00160d00",
+    "pseudocode": "\r\nundefined8 FUN_00160d00(undefined8 param_1,char *param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  undefined8 uVar2;\r\n  \r\n  switch(param_2 != (char *)0x0) {\r\n  case false:\r\n    return 0xffffffff;\r\n  }\r\n  uVar1 = 0;\r\n  if (*param_2 != '\\0') {\r\n    uVar1 = 5;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00160d78. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  uVar2 = (*(code *)(&switchD_00260d44::switchdataD_00661ac0)[uVar1])();\r\n  return uVar2;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00160ea0",
+    "pseudocode": "\r\nundefined8 FUN_00160ea0(void)\r\n\r\n{\r\n  return 2;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00160ea8",
+    "pseudocode": "\r\nvoid FUN_00160ea8(void)\r\n\r\n{\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00160eac",
+    "pseudocode": "\r\nvoid FUN_00160eac(void)\r\n\r\n{\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00161da4",
+    "pseudocode": "\r\nvoid FUN_00161da4(undefined8 param_1,long *param_2,long param_3)\r\n\r\n{\r\n  long lVar1;\r\n  long lVar2;\r\n  uint uVar3;\r\n  undefined uVar4;\r\n  int iVar5;\r\n  int iVar6;\r\n  int iVar7;\r\n  int iVar8;\r\n  byte bVar10;\r\n  undefined8 uVar9;\r\n  int iVar11;\r\n  undefined8 uVar12;\r\n  int iVar13;\r\n  int iVar14;\r\n  undefined8 uVar15;\r\n  int iVar16;\r\n  int iVar17;\r\n  int iVar18;\r\n  undefined in_q5 [16];\r\n  \r\n  iVar18 = in_q5._4_4_;\r\n  iVar17 = in_q5._0_4_;\r\n  param_2 = (long *)*param_2;\r\n  if (param_2 != (long *)0x0) {\r\n    uVar3 = 0;\r\n    do {\r\n      if (uVar3 < 0x3f) {\r\n        uVar4 = 0x30;\r\n        if (*(char *)(param_2 + 2) != '\\0') {\r\n          uVar4 = 0x31;\r\n        }\r\n        *(undefined *)(param_3 + (int)uVar3) = uVar4;\r\n        uVar3 = uVar3 + 1;\r\n      }\r\n      lVar2 = (long)*(int *)((long)param_2 + 0x14) + -1;\r\n      if (*(char *)(param_2 + 2) != '\\0') {\r\n        lVar1 = param_3 + lVar2 * 4;\r\n        *(int *)(lVar1 + 0x40) = *(int *)(lVar1 + 0x40) + 1;\r\n      }\r\n      lVar2 = param_3 + lVar2 * 4;\r\n      *(int *)(lVar2 + 0x50) = *(int *)(lVar2 + 0x50) + 1;\r\n      param_2 = (long *)*param_2;\r\n    } while (param_2 != (long *)0x0);\r\n  }\r\n  lVar2 = 0;\r\n  iVar5 = 0;\r\n  iVar6 = 0;\r\n  iVar7 = 0;\r\n  iVar8 = 0;\r\n  do {\r\n    uVar12 = *(undefined8 *)(param_3 + lVar2 + 0x50);\r\n    uVar15 = *(undefined8 *)(param_3 + lVar2 + 0x40);\r\n    uVar9 = NEON_cmeq(uVar12,0,4);\r\n    bVar10 = (byte)((ulong)uVar9 >> 0x20);\r\n    iVar14 = (int)uVar15;\r\n    iVar11 = (int)uVar12;\r\n    if ((~(byte)uVar9 & 1) != 0) {\r\n      iVar17 = 0;\r\n      if (iVar11 != 0) {\r\n        iVar17 = (iVar14 * 100) / iVar11;\r\n      }\r\n      iVar18 = 0;\r\n    }\r\n    iVar16 = (int)((ulong)uVar15 >> 0x20);\r\n    iVar13 = (int)((ulong)uVar12 >> 0x20);\r\n    if ((~bVar10 & 1) != 0) {\r\n      iVar18 = 0;\r\n      if (iVar13 != 0) {\r\n        iVar18 = (iVar16 * 100) / iVar13;\r\n      }\r\n    }\r\n    lVar1 = param_3 + lVar2;\r\n    lVar2 = lVar2 + 8;\r\n    iVar7 = iVar14 + iVar7;\r\n    iVar8 = iVar16 + iVar8;\r\n    iVar5 = iVar11 + iVar5;\r\n    iVar6 = iVar13 + iVar6;\r\n    *(ulong *)(lVar1 + 0x60) =\r\n         CONCAT17((byte)((uint)iVar18 >> 0x18) & ~(byte)((ulong)uVar9 >> 0x38),\r\n                  CONCAT16((byte)((uint)iVar18 >> 0x10) & ~(byte)((ulong)uVar9 >> 0x30),\r\n                           CONCAT15((byte)((uint)iVar18 >> 8) & ~(byte)((ulong)uVar9 >> 0x28),\r\n                                    CONCAT14((byte)iVar18 & ~bVar10,\r\n                                             CONCAT13((byte)((uint)iVar17 >> 0x18) &\r\n                                                      ~(byte)((ulong)uVar9 >> 0x18),\r\n                                                      CONCAT12((byte)((uint)iVar17 >> 0x10) &\r\n                                                               ~(byte)((ulong)uVar9 >> 0x10),\r\n                                                               CONCAT11((byte)((uint)iVar17 >> 8) &\r\n                                                                        ~(byte)((ulong)uVar9 >> 8),\r\n                                                                        (byte)iVar17 & ~(byte)uVar9)\r\n                                                              ))))));\r\n  } while (lVar2 != 0x10);\r\n  iVar5 = iVar5 + iVar6;\r\n  iVar17 = iVar5;\r\n  if (iVar5 != 0) {\r\n    iVar17 = 0;\r\n    if (iVar5 != 0) {\r\n      iVar17 = ((iVar7 + iVar8) * 100) / iVar5;\r\n    }\r\n  }\r\n  *(int *)(param_3 + 0x70) = iVar17;\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00161eb4",
+    "pseudocode": "\r\nvoid FUN_00161eb4(undefined8 param_1,long param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 6;\r\n  if (param_2 != 0) {\r\n    uVar1 = 5;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00161efc. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x563350))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0016236c",
+    "pseudocode": "\r\nvoid FUN_0016236c(undefined8 *param_1)\r\n\r\n{\r\n  param_1[1] = 0;\r\n  *(undefined2 *)(param_1 + 2) = 0;\r\n  *param_1 = &DAT_00549260;\r\n                    /* WARNING: Could not recover jumptable at 0x001623b4. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (*DAT_005633a0)((long)param_1 + 0x12);\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "001623e4",
+    "pseudocode": "\r\nvoid FUN_001623e4(void)\r\n\r\n{\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0016261c",
+    "pseudocode": "\r\nvoid FUN_0016261c(undefined8 param_1,long param_2,long param_3)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 1;\r\n  if (param_3 != 0 && param_2 != 0) {\r\n    uVar1 = 0xe;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00162678. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x5633e0))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "001629ec",
+    "pseudocode": "\r\nvoid FUN_001629ec(undefined8 param_1,long param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 3;\r\n  if (param_2 != 0) {\r\n    uVar1 = 1;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00162a38. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x563520))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00162da0",
+    "pseudocode": "\r\nvoid FUN_00162da0(undefined8 param_1,long param_2,long param_3,long param_4,long param_5)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 0xd;\r\n  if (((param_5 != 0 && param_4 != 0) && param_3 != 0) && param_2 != 0) {\r\n    uVar1 = 0x15;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00162e08. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x563550))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0016322c",
+    "pseudocode": "\r\nvoid FUN_0016322c(undefined8 param_1,long param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 7;\r\n  if (param_2 != 0) {\r\n    uVar1 = 6;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0016328c. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x5636c0))(0);\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "001633e4",
+    "pseudocode": "\r\nvoid FUN_001633e4(undefined8 param_1,long param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 0xb;\r\n  if (param_2 != 0) {\r\n    uVar1 = 0x16;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00163440. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x563700))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00163860",
+    "pseudocode": "\r\nvoid FUN_00163860(undefined8 param_1,long param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 0;\r\n  if (*(int *)(param_2 + 0x10) != 0) {\r\n    uVar1 = 0x10;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x001638bc. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x563840))(0);\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0016401c",
+    "pseudocode": "\r\nvoid FUN_0016401c(undefined8 param_1,long param_2,long param_3)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 1;\r\n  if (param_3 != 0 && param_2 != 0) {\r\n    uVar1 = 6;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0016406c. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x563960))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "001645f0",
+    "pseudocode": "\r\nundefined * FUN_001645f0(void)\r\n\r\n{\r\n  return &DAT_00453c77;\r\n}\r\n\r\n"
+},
+{
+    "offset": "001645fc",
+    "pseudocode": "\r\nundefined8 FUN_001645fc(void)\r\n\r\n{\r\n  return 0x193b;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00164648",
+    "pseudocode": "\r\nvoid FUN_00164648(undefined8 *param_1)\r\n\r\n{\r\n  param_1[1] = 0;\r\n  param_1[2] = 0;\r\n  *param_1 = &DAT_00549290;\r\n  *(undefined4 *)((long)param_1 + 0x17) = 0;\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00164b14",
+    "pseudocode": "\r\nvoid FUN_00164b14(long param_1)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 10;\r\n  if (*(char *)(param_1 + 0x18) != '\\0') {\r\n    uVar1 = 1;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00164b68. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x5639a0))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "001652dc",
+    "pseudocode": "\r\nvoid FUN_001652dc(void)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 1;\r\n  if (DAT_005b1c18 != 0) {\r\n    uVar1 = 2;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0016532c. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x563c00))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0016535c",
+    "pseudocode": "\r\nvoid FUN_0016535c(undefined8 *param_1)\r\n\r\n{\r\n  *param_1 = &DAT_005492c0;\r\n  param_1[1] = 0;\r\n  *(undefined *)(param_1 + 3) = 0;\r\n  param_1[2] = &DAT_00549300;\r\n                    /* WARNING: Could not recover jumptable at 0x001653a0. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (*DAT_00563c20)((long)param_1 + 0x19);\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00166130",
+    "pseudocode": "\r\nvoid FUN_00166130(undefined8 param_1,undefined8 param_2,long param_3)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 10;\r\n  if (*(long *)(param_3 + 0x10) != 0) {\r\n    uVar1 = 5;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00166198. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x563e00))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "001665d0",
+    "pseudocode": "\r\nvoid FUN_001665d0(undefined8 param_1,long param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 8;\r\n  if (*(long *)(param_2 + 0x10) != 0) {\r\n    uVar1 = 3;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0016662c. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x563f10))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00166c04",
+    "pseudocode": "\r\nvoid FUN_00166c04(undefined8 param_1,long param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 3;\r\n  if (param_2 != 0) {\r\n    uVar1 = 1;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00166c4c. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x563f60))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00166d34",
+    "pseudocode": "\r\nvoid FUN_00166d34(long param_1)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 3;\r\n  if (*(char *)(param_1 + 0x19) != '\\0') {\r\n    uVar1 = 5;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00166d8c. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x563f80))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00166f7c",
+    "pseudocode": "\r\nvoid FUN_00166f7c(long param_1)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 10;\r\n  if (param_1 != 0) {\r\n    uVar1 = 8;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00166fd0. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x563fc0))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "001671dc",
+    "pseudocode": "\r\nvoid FUN_001671dc(undefined8 param_1,undefined8 param_2,long *param_3)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 1;\r\n  if (*param_3 != 0) {\r\n    uVar1 = 4;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00167234. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x564040))(0);\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00167714",
+    "pseudocode": "\r\nvoid FUN_00167714(undefined8 param_1,long param_2,uint param_3)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 0;\r\n  if (*(uint *)(param_2 + 300) <= param_3) {\r\n    uVar1 = 2;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00167744. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)(&DAT_00564070 + (ulong)uVar1 * 8))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "001678f0",
+    "pseudocode": "\r\nvoid FUN_001678f0(undefined8 param_1,long param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 2;\r\n  if (param_2 != 0) {\r\n    uVar1 = 0x1e;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00167948. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x5640c0))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00167c58",
+    "pseudocode": "\r\nvoid FUN_00167c58(undefined8 param_1,long param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 10;\r\n  if (param_2 != 0) {\r\n    uVar1 = 6;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00167cb4. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x5641d0))(0xffffffff);\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00167f78",
+    "pseudocode": "\r\nvoid FUN_00167f78(undefined8 param_1,long param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 4;\r\n  if (param_2 != 0) {\r\n    uVar1 = 0xb;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00167fc0. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x564270))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0016838c",
+    "pseudocode": "\r\nvoid FUN_0016838c(undefined8 param_1,long param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 5;\r\n  if (param_2 != 0) {\r\n    uVar1 = 1;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x001683e8. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x5642f0))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0016854c",
+    "pseudocode": "\r\nundefined8 FUN_0016854c(void)\r\n\r\n{\r\n  return 1;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00168648",
+    "pseudocode": "\r\nvoid FUN_00168648(void)\r\n\r\n{\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00168650",
+    "pseudocode": "\r\nvoid FUN_00168650(void)\r\n\r\n{\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00168654",
+    "pseudocode": "\r\nvoid FUN_00168654(void)\r\n\r\n{\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "001689f0",
+    "pseudocode": "\r\nvoid FUN_001689f0(long *param_1,long *param_2)\r\n\r\n{\r\n  long *plVar1;\r\n  long lVar2;\r\n  long *plVar3;\r\n  \r\n  lVar2 = *param_2;\r\n  plVar1 = (long *)param_2[2];\r\n  if (lVar2 != 0) {\r\n    param_1 = (long *)(lVar2 + 8);\r\n    if (*(long **)(lVar2 + 8) != param_2) {\r\n      param_1 = (long *)(lVar2 + 0x10);\r\n    }\r\n  }\r\n  *param_1 = (long)plVar1;\r\n  plVar3 = (long *)plVar1[1];\r\n  *plVar1 = lVar2;\r\n  param_2[2] = (long)plVar3;\r\n  if (plVar3 != (long *)0x0) {\r\n    *plVar3 = (long)param_2;\r\n  }\r\n  plVar1[1] = (long)param_2;\r\n  *param_2 = (long)plVar1;\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00168a34",
+    "pseudocode": "\r\nvoid FUN_00168a34(undefined8 *param_1,long *param_2)\r\n\r\n{\r\n  long lVar1;\r\n  long *plVar2;\r\n  undefined8 *puVar3;\r\n  \r\n  lVar1 = *param_2;\r\n  plVar2 = (long *)param_2[1];\r\n  if (lVar1 != 0) {\r\n    param_1 = (undefined8 *)(lVar1 + 8);\r\n    if (*(long **)(lVar1 + 8) != param_2) {\r\n      param_1 = (undefined8 *)(lVar1 + 0x10);\r\n    }\r\n  }\r\n  *param_1 = plVar2;\r\n  puVar3 = (undefined8 *)plVar2[2];\r\n  *plVar2 = lVar1;\r\n  param_2[1] = (long)puVar3;\r\n  if (puVar3 != (undefined8 *)0x0) {\r\n    *puVar3 = param_2;\r\n  }\r\n  plVar2[2] = (long)param_2;\r\n  *param_2 = (long)plVar2;\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00168ab8",
+    "pseudocode": "\r\nundefined8 FUN_00168ab8(long param_1)\r\n\r\n{\r\n  return *(undefined8 *)(param_1 + 0x10);\r\n}\r\n\r\n"
+},
+{
+    "offset": "00168ae8",
+    "pseudocode": "\r\nvoid FUN_00168ae8(byte param_1)\r\n\r\n{\r\n  DAT_005b1c78 = param_1 & 1;\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00168af8",
+    "pseudocode": "\r\nvoid FUN_00168af8(void)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 7;\r\n  if (DAT_005b1c30 < 0x401) {\r\n    uVar1 = 8;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00168b50. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)(&DAT_00564330 + (ulong)uVar1 * 8))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00168f80",
+    "pseudocode": "\r\nvoid FUN_00168f80(long param_1)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 0;\r\n  if (param_1 != 0) {\r\n    uVar1 = 3;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00168fb8. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (*(code *)(&PTR_FUN_00564390)[uVar1])();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00169098",
+    "pseudocode": "\r\nundefined8 FUN_00169098(void)\r\n\r\n{\r\n  return DAT_005b1c30;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00169494",
+    "pseudocode": "\r\nvoid FUN_00169494(undefined8 param_1,long param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 4;\r\n  if (param_2 != 0) {\r\n    uVar1 = 3;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x001694d0. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x564440))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0016958c",
+    "pseudocode": "\r\nvoid FUN_0016958c(undefined8 param_1,long param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 4;\r\n  if (param_2 != 0) {\r\n    uVar1 = 3;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x001695c8. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x564470))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00169a58",
+    "pseudocode": "\r\nulong FUN_00169a58(long *param_1)\r\n\r\n{\r\n  return (ulong)(param_1[1] - *param_1) >> 3;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00169af8",
+    "pseudocode": "\r\nvoid FUN_00169af8(void)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 3;\r\n  if (DAT_005b1ca0 != 0) {\r\n    uVar1 = 1;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00169b48. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x5644f0))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00169bd8",
+    "pseudocode": "\r\nvoid FUN_00169bd8(void)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 0;\r\n  if (DAT_005b1ca0 != 0) {\r\n    uVar1 = 2;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00169c18. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x564510))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00169c58",
+    "pseudocode": "\r\nvoid FUN_00169c58(undefined8 *param_1)\r\n\r\n{\r\n  param_1[4] = 0;\r\n  *(undefined2 *)(param_1 + 5) = 0;\r\n  *(undefined8 *)((long)param_1 + 0xc) = 0;\r\n  *param_1 = &DAT_00549330;\r\n  *(undefined *)(param_1 + 1) = 1;\r\n  *(undefined8 *)((long)param_1 + 0x11) = 0;\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0016a0b0",
+    "pseudocode": "\r\nvoid FUN_0016a0b0(undefined8 *param_1)\r\n\r\n{\r\n  *param_1 = &DAT_00549330;\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0016a2f4",
+    "pseudocode": "\r\nvoid FUN_0016a2f4(undefined8 param_1,long param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 2;\r\n  if (param_2 != 0) {\r\n    uVar1 = 1;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0016a33c. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x5646e0))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0016a648",
+    "pseudocode": "\r\nvoid FUN_0016a648(undefined8 param_1,long param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 2;\r\n  if (param_2 != 0) {\r\n    uVar1 = 0;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0016a688. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (*(code *)(&DAT_00564720)[uVar1])();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0016a82c",
+    "pseudocode": "\r\nvoid FUN_0016a82c(undefined8 param_1,long param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 0;\r\n  if (param_2 != 0) {\r\n    uVar1 = 2;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0016a864. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x564760))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0016a8f4",
+    "pseudocode": "\r\nvoid FUN_0016a8f4(undefined8 param_1,long param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 2;\r\n  if (param_2 != 0) {\r\n    uVar1 = 1;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0016a93c. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x564780))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0016ab04",
+    "pseudocode": "\r\nvoid FUN_0016ab04(undefined8 param_1,long param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 8;\r\n  if (param_2 != 0) {\r\n    uVar1 = 10;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0016ab60. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x5647a0))(0xffffffff);\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0016afe0",
+    "pseudocode": "\r\nvoid FUN_0016afe0(undefined8 param_1,long param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  switch(param_2 != 0) {\r\n  case false:\r\n    return;\r\n  }\r\n  uVar1 = 5;\r\n  if (4 < DAT_005b1cb0) {\r\n    uVar1 = 4;\r\n  }\r\n  DAT_005b1cb0 = DAT_005b1cb0 + 1;\r\n                    /* WARNING: Could not recover jumptable at 0x0016b074. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (*(code *)(&switchD_0026b018::switchdataD_00664840)[uVar1])();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0016b158",
+    "pseudocode": "\r\nvoid FUN_0016b158(void)\r\n\r\n{\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0016b544",
+    "pseudocode": "\r\nvoid FUN_0016b544(void)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 1;\r\n  if (DAT_005b1cb8 != 0) {\r\n    uVar1 = 2;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0016b594. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x5648a0))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0016b5c0",
+    "pseudocode": "\r\nvoid FUN_0016b5c0(undefined8 *param_1)\r\n\r\n{\r\n  *param_1 = 0;\r\n  *(undefined4 *)(param_1 + 1) = 0;\r\n  param_1[2] = 0;\r\n  param_1[3] = 0;\r\n  *(undefined *)(param_1 + 4) = 0;\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0016b6e4",
+    "pseudocode": "\r\nvoid FUN_0016b6e4(void)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 0xd;\r\n  if (*PTR_DAT_00550950 != '\\0') {\r\n    uVar1 = 0x17;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0016b74c. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x5648c0))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0016bbc8",
+    "pseudocode": "\r\nvoid FUN_0016bbc8(long param_1)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 5;\r\n  if (param_1 != 0) {\r\n    uVar1 = 8;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0016bc1c. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x5649f0))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0016c3e8",
+    "pseudocode": "\r\nvoid FUN_0016c3e8(void)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 3;\r\n  if (DAT_005b1d18 != 0) {\r\n    uVar1 = 1;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0016c438. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x564b20))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0016c4d0",
+    "pseudocode": "\r\nvoid FUN_0016c4d0(long param_1)\r\n\r\n{\r\n  *(int *)(param_1 + 0x434) = *(int *)(param_1 + 0x434) + 1;\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0016c658",
+    "pseudocode": "\r\nvoid FUN_0016c658(long param_1)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 0;\r\n  if (*(char *)(param_1 + 0xa0) != '\\0') {\r\n    uVar1 = 3;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0016c688. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x564b90))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0016c6d0",
+    "pseudocode": "\r\nvoid FUN_0016c6d0(long param_1)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 1;\r\n  if (*(int *)(param_1 + 0x8c) != 0) {\r\n    uVar1 = 2;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0016c71c. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x564bb0))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0016c958",
+    "pseudocode": "\r\nvoid FUN_0016c958(void)\r\n\r\n{\r\n  uint uVar1;\r\n  long in_x6;\r\n  \r\n  uVar1 = 0;\r\n  if (in_x6 != 0) {\r\n    uVar1 = 3;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0016c990. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x564bd0))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0016cf1c",
+    "pseudocode": "\r\nvoid FUN_0016cf1c(long param_1)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 1;\r\n  if (*(int *)(param_1 + 0x8c) != 0) {\r\n    uVar1 = 3;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0016cf5c. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x564c40))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0016d034",
+    "pseudocode": "\r\n/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */\r\n\r\nvoid FUN_0016d034(undefined8 param_1,undefined8 *param_2)\r\n\r\n{\r\n  undefined8 uVar1;\r\n  undefined8 uVar2;\r\n  undefined8 uVar3;\r\n  undefined8 uVar4;\r\n  undefined8 uVar5;\r\n  \r\n  uVar4 = _UNK_00455b48;\r\n  uVar3 = _DAT_00455b40;\r\n  uVar2 = _UNK_00455b38;\r\n  uVar1 = _DAT_00455b30;\r\n  uVar5 = NEON_fmov(0x3f800000,4);\r\n  param_2[2] = 0;\r\n  *param_2 = 0;\r\n  *(undefined8 *)((long)param_2 + 5) = 0;\r\n  param_2[3] = uVar5;\r\n  param_2[5] = uVar2;\r\n  param_2[4] = uVar1;\r\n  param_2[7] = uVar4;\r\n  param_2[6] = uVar3;\r\n  param_2[8] = 0;\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0016d3b0",
+    "pseudocode": "\r\nvoid FUN_0016d3b0(undefined8 param_1,long param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 7;\r\n  if (param_2 != 0) {\r\n    uVar1 = 2;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0016d404. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x564cc0))(0);\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0016d594",
+    "pseudocode": "\r\nvoid FUN_0016d594(undefined8 param_1,long param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 3;\r\n  if (param_2 != 0) {\r\n    uVar1 = 1;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0016d5dc. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x564d00))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0016d738",
+    "pseudocode": "\r\nvoid FUN_0016d738(undefined8 param_1,undefined8 *param_2,undefined8 *param_3)\r\n\r\n{\r\n  undefined8 uVar1;\r\n  \r\n  switch(param_3 == (undefined8 *)0x0 || param_2 == (undefined8 *)0x0) {\r\n  case false:\r\n    *param_2 = *param_3;\r\n    *(undefined4 *)(param_2 + 1) = *(undefined4 *)(param_3 + 1);\r\n    *(undefined *)((long)param_2 + 0xc) = *(undefined *)((long)param_3 + 0xc);\r\n    uVar1 = param_3[2];\r\n    param_2[3] = param_3[3];\r\n    param_2[2] = uVar1;\r\n    uVar1 = param_3[4];\r\n    param_2[5] = param_3[5];\r\n    param_2[4] = uVar1;\r\n    uVar1 = param_3[6];\r\n    param_2[7] = param_3[7];\r\n    param_2[6] = uVar1;\r\n    uVar1 = param_3[8];\r\n    param_2[9] = param_3[9];\r\n    param_2[8] = uVar1;\r\n  }\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0016da88",
+    "pseudocode": "\r\nvoid FUN_0016da88(void)\r\n\r\n{\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0016e030",
+    "pseudocode": "\r\nvoid FUN_0016e030(long param_1)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 3;\r\n  if (*(char *)(param_1 + 0x120) != '\\0') {\r\n    uVar1 = 2;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0016e070. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x564d70))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0016e0b8",
+    "pseudocode": "\r\nvoid FUN_0016e0b8(undefined8 param_1,long param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 0;\r\n  if (param_2 != 0) {\r\n    uVar1 = 3;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0016e0f0. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x564d90))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0016e36c",
+    "pseudocode": "\r\nvoid FUN_0016e36c(void)\r\n\r\n{\r\n  uint uVar1;\r\n  long in_x4;\r\n  \r\n  uVar1 = 2;\r\n  if (in_x4 != 0) {\r\n    uVar1 = 6;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0016e3c8. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x564e40))(0xffffffff);\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0016e818",
+    "pseudocode": "\r\nvoid FUN_0016e818(void)\r\n\r\n{\r\n  uint uVar1;\r\n  long in_x3;\r\n  \r\n  uVar1 = 1;\r\n  if (in_x3 != 0) {\r\n    uVar1 = 4;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0016e874. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x564f40))(0xffffffff);\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0016f7cc",
+    "pseudocode": "\r\nvoid FUN_0016f7cc(undefined8 param_1,undefined8 param_2,long param_3)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 3;\r\n  if (param_3 != 0) {\r\n    uVar1 = 0;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0016f824. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (*(code *)(&DAT_00565100)[uVar1])(0xffffffff);\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0016fa50",
+    "pseudocode": "\r\nvoid FUN_0016fa50(undefined8 param_1,long param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 2;\r\n  if (param_2 != 0) {\r\n    uVar1 = 3;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0016fa8c. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x565170))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0017061c",
+    "pseudocode": "\r\nvoid FUN_0017061c(undefined8 param_1,long param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 7;\r\n  if (param_2 != 0) {\r\n    uVar1 = 2;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00170678. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x565360))(0);\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00171780",
+    "pseudocode": "\r\nvoid FUN_00171780(long *param_1,long *param_2)\r\n\r\n{\r\n  long *plVar1;\r\n  long lVar2;\r\n  long *plVar3;\r\n  \r\n  lVar2 = *param_2;\r\n  plVar1 = (long *)param_2[2];\r\n  if (lVar2 != 0) {\r\n    param_1 = (long *)(lVar2 + 8);\r\n    if (*(long **)(lVar2 + 8) != param_2) {\r\n      param_1 = (long *)(lVar2 + 0x10);\r\n    }\r\n  }\r\n  *param_1 = (long)plVar1;\r\n  plVar3 = (long *)plVar1[1];\r\n  *plVar1 = lVar2;\r\n  param_2[2] = (long)plVar3;\r\n  if (plVar3 != (long *)0x0) {\r\n    *plVar3 = (long)param_2;\r\n  }\r\n  plVar1[1] = (long)param_2;\r\n  *param_2 = (long)plVar1;\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "001717c4",
+    "pseudocode": "\r\nvoid FUN_001717c4(undefined8 *param_1,long *param_2)\r\n\r\n{\r\n  long lVar1;\r\n  long *plVar2;\r\n  undefined8 *puVar3;\r\n  \r\n  lVar1 = *param_2;\r\n  plVar2 = (long *)param_2[1];\r\n  if (lVar1 != 0) {\r\n    param_1 = (undefined8 *)(lVar1 + 8);\r\n    if (*(long **)(lVar1 + 8) != param_2) {\r\n      param_1 = (undefined8 *)(lVar1 + 0x10);\r\n    }\r\n  }\r\n  *param_1 = plVar2;\r\n  puVar3 = (undefined8 *)plVar2[2];\r\n  *plVar2 = lVar1;\r\n  param_2[1] = (long)puVar3;\r\n  if (puVar3 != (undefined8 *)0x0) {\r\n    *puVar3 = param_2;\r\n  }\r\n  plVar2[2] = (long)param_2;\r\n  *param_2 = (long)plVar2;\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0017245c",
+    "pseudocode": "\r\nvoid FUN_0017245c(void)\r\n\r\n{\r\n  uint uVar1;\r\n  long in_x3;\r\n  \r\n  uVar1 = 3;\r\n  if (in_x3 != 0) {\r\n    uVar1 = 2;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x001724a0. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x5654b0))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "001724e8",
+    "pseudocode": "\r\nvoid FUN_001724e8(void)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 3;\r\n  if (DAT_005b1d30 != 0) {\r\n    uVar1 = 1;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00172538. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x5654d0))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "0017260c",
+    "pseudocode": "\r\nvoid FUN_0017260c(undefined8 *param_1)\r\n\r\n{\r\n  *param_1 = &DAT_005494a8;\r\n  param_1[2] = 0;\r\n  param_1[1] = 0;\r\n  param_1[4] = 0;\r\n  param_1[3] = 0;\r\n  param_1[5] = 0;\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00172ff8",
+    "pseudocode": "\r\nvoid FUN_00172ff8(undefined8 param_1,long *param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 3;\r\n  if (*param_2 != 0) {\r\n    uVar1 = 2;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00173064. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x565660))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00173574",
+    "pseudocode": "\r\nvoid FUN_00173574(undefined2 *param_1)\r\n\r\n{\r\n  *param_1 = 0;\r\n  *(undefined8 *)(param_1 + 8) = 0;\r\n  *(undefined8 *)(param_1 + 0xc) = 0;\r\n  *(undefined8 *)(param_1 + 4) = 0;\r\n  *(undefined4 *)(param_1 + 2) = 0xffffffff;\r\n  *(undefined4 *)(param_1 + 0x10) = 0;\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00173640",
+    "pseudocode": "\r\nvoid FUN_00173640(void)\r\n\r\n{\r\n  uint uVar1;\r\n  long in_x6;\r\n  \r\n  uVar1 = 0xc;\r\n  if (in_x6 == 0) {\r\n    uVar1 = 0x11;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x001736b8. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)(&DAT_005656d0 + (ulong)uVar1 * 8))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00173e50",
+    "pseudocode": "\r\nvoid FUN_00173e50(void)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 4;\r\n  if (DAT_005b1d48 != 0) {\r\n    uVar1 = 0;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00173e98. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (*(code *)(&DAT_00565780)[uVar1])();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "001746d4",
+    "pseudocode": "\r\nvoid FUN_001746d4(void)\r\n\r\n{\r\n  uint uVar1;\r\n  uint in_w5;\r\n  \r\n  uVar1 = 4;\r\n  if ((in_w5 & 1) == 0) {\r\n    uVar1 = 0;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0017472c. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)(&DAT_00565810 + (ulong)uVar1 * 8))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00174ddc",
+    "pseudocode": "\r\nvoid FUN_00174ddc(long param_1)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 2;\r\n  if (*(char *)(param_1 + 0x48) != '\\0') {\r\n    uVar1 = 4;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x00174e28. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x565860))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "00175278",
+    "pseudocode": "\r\nvoid FUN_00175278(void)\r\n\r\n{\r\n  uint uVar1;\r\n  int in_w3;\r\n  \r\n  uVar1 = 6;\r\n  if (in_w3 != 0) {\r\n    uVar1 = 0;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x001752c4. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (*(code *)(&DAT_00565890)[uVar1])(0);\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "001755d0",
+    "pseudocode": "\r\nvoid FUN_001755d0(undefined8 param_1,long param_2)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 9;\r\n  if (param_2 != 0) {\r\n    uVar1 = 2;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0017562c. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x5658d0))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "001759bc",
+    "pseudocode": "\r\nundefined4 FUN_001759bc(long param_1)\r\n\r\n{\r\n  return *(undefined4 *)(param_1 + 8);\r\n}\r\n\r\n"
+},
+{
+    "offset": "001760c4",
+    "pseudocode": "\r\nvoid FUN_001760c4(undefined8 param_1,undefined8 param_2,long param_3)\r\n\r\n{\r\n  uint uVar1;\r\n  \r\n  uVar1 = 0xf;\r\n  if (param_3 != 0) {\r\n    uVar1 = 0xc;\r\n  }\r\n                    /* WARNING: Could not recover jumptable at 0x0017611c. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n  (**(code **)((ulong)uVar1 * 8 + 0x565ac0))();\r\n  return;\r\n}\r\n\r\n"
+},
+{
+    "offset": "001768a0",
+    "pseudocode": "\r\nchar * FUN_001768a0(void)\r\n\r\n{\r\n  return \"gs_it\";\r\n}\r\n\r\n"
+},
+{
+    "offset": "00176900",
+    "pseudocode": "\r\nvoid FUN_00176900(undefined8 *param_1)\r\n\r\n{\r\n  *(undefined8 *)((long)param_1 + 5) = 0;\r\n  *param_1 = 0;\r\n  param_1[3] = 0;\r\n  param_1[2] = 0;\r\n  param_1[5] = 0;\r\n  param_1[4] = 0;\r\n  param_1[7] = 0;\r\n  param_1[6] = 0;\r\n  param_1[8] = 0;\r\n  return;\r\n}\r\n\r\n"
+},

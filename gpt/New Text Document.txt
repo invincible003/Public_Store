@@ -1,6 +1,0 @@
-"Please process the attached logs or log file and generate a JSON output that includes:
-
-The offset in the format 0xXYZABC (removing leading zeroes and adding the prefix 0x).
-Suggested function name based on the context of the game anti-cheat library.
-A detailed comment explaining the purpose of the function.
-The JSON output should not have square brackets ([]) around any entries but should keep the commas between elements. The function names should be meaningful and follow naming conventions for anti-cheat libraries (e.g., callVTable, ret_p1, simply_ret, etc.)."
